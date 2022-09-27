@@ -64,7 +64,9 @@ nav{
     color: var(--hospial-green);
 }
 
-/* .navbar-right ul li:nth-child(1){
+/*  testing
+
+.navbar-right ul li:nth-child(1){
     text-decoration: none;
     color: var(--very-light-pink);
     border: 1px solid var(--white);
