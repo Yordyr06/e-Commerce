@@ -1,7 +1,7 @@
 :root{
     --very-light-pink: #C7C7C7;
     --text-input-field: #F7F7F7;
-    --hospital-green: #ACD9B2;
+    --hospial-green: #ACD9B2;
     --white: #FFFFFF;
     --black: #000000;
     --dark: #232830;
@@ -10,8 +10,164 @@
     --lg: 18px;
 
 }
-    
+
 body{
     margin: 0;
     font-family: 'Quicksand', sans-serif;
+}
+
+nav{
+    display: flex;
+    justify-content: space-between;
+    padding: 0px 24px;
+    border-bottom: 1px solid var(--very-light-pink);
+}
+
+.menu{
+    display: none;
+}
+
+.logo{
+    width: 100px;
+}
+
+.navbar-left{
+    display: flex;
+}
+
+.navbar-left ul{
+    margin-left: 12px;
+}
+
+.navbar-left ul,
+.navbar-right ul{
+    list-style: none;
+    padding: 0px;
+    margin: 0px;
+    display: flex;
+    align-items: center;
+    height: 60px;
+}
+
+.navbar-left ul li a,
+.navbar-right ul li a{
+    text-decoration: none;
+    color: var(--very-light-pink);
+    border: 1px solid var(--white);
+    padding: 8px;
+    border-radius: 8px;
+}
+
+.navbar-left ul li a:hover,
+.navbar-right ul li a:hover{
+    border: 1px solid var(--hospial-green);
+    color: var(--hospial-green);
+}
+
+/* .navbar-right ul li:nth-child(1){
+    text-decoration: none;
+    color: var(--very-light-pink);
+    border: 1px solid var(--white);
+    padding: 8px;
+    border-radius: 8px;
+}
+
+.navbar-right ul li:nth-child(1):hover{
+    border: 1px solid var(--hospial-green);
+    color: var(--hospial-green);
+}*/
+
+.navbar-email{
+    color: var(--very-light-pink);
+    font-size: var(--sm);
+    margin-right: 12px;
+}
+
+.navbar-email img{
+    margin-left: 4px;
+    transform: rotate(90deg);
+}
+
+.navbar-shopping-card-icon{
+    position: relative;
+}
+
+.navbar-shopping-card-icon div{
+    width: 16px;
+    height: 16px;
+    margin-left: 8px;
+    background-color: var(--hospial-green);
+    border-radius: 50%;
+    font-size: var(--sm);
+    font-weight: bold;
+    position: absolute;
+    top: -6px;
+    right: -6px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.inactive {
+    display: none;
+}
+
+.sing-out-menu{
+    position: absolute;
+    top: 60px;
+    right: 76px;
+    background: var(--white);
+    width: 100px;
+    height: auto;
+    border: 1px solid var(--very-light-pink);
+    border-radius: 6px;
+    padding: 20px 20px 0px 20px;
+}
+
+.sing-out-menu ul{
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+.sing-out-menu ul li{
+    text-align: end;
+}
+
+.sing-out-menu ul li a {
+    color: var(--black);
+    text-decoration: none;
+    margin-bottom: 20px;
+    display: inline-block;
+}
+
+.sing-out-menu ul li:nth-child(1) a,
+.sing-out-menu ul li:nth-child(2) a{
+    font-weight: bold;
+}
+
+.sing-out-menu ul li:last-child {
+    padding-top: 20px;
+    border-top: 1px solid var(--very-light-pink);
+}
+
+.sing-out-menu ul li:last-child a {
+    color: var(--hospial-green);
+    font-size: var(--sm);
+}
+
+
+
+@media (max-width: 640px) {
+    .menu{
+        display: block;
+    }
+
+    .navbar-left ul {
+        display: none;
+    }
+
+    .navbar-email {
+        display: none;
+    }
 }
