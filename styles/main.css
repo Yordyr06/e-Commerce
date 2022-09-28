@@ -56,12 +56,15 @@ nav{
     border: 1px solid var(--white);
     padding: 8px;
     border-radius: 8px;
+    cursor: pointer;
 }
 
 .navbar-left ul li a:hover,
 .navbar-right ul li a:hover{
+
     border: 1px solid var(--hospial-green);
     color: var(--hospial-green);
+    cursor: pointer;
 }
 
 /*  testing
