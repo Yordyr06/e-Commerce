@@ -16,41 +16,41 @@ body{
     font-family: 'Quicksand', sans-serif;
 }
 
-.mobile-menu-2{
+.mobile-menu{
     padding: 24px;
 }
 
-.mobile-menu-2 a{
+.mobile-menu a{
     text-decoration: none;
     color: var(--black);
     font-weight: bold;
 }
 
-.mobile-menu-2 ul{
+.mobile-menu ul{
     padding: 0px;
     margin: 24px 0px 0px 0px;
     list-style: none;
 }
 
-.mobile-menu-2 ul:nth-child(1){
+.mobile-menu ul:nth-child(1){
     border-bottom: 1px solid var(--very-light-pink)
 }
 
-.mobile-menu-2 ul:nth-child(3){
+.mobile-menu ul:nth-child(3){
     position: absolute;
     bottom: 0%;
 }
 
-.mobile-menu-2 ul li{
+.mobile-menu ul li{
     margin: 24px;
 }
 
-.mobile-menu-2 .email{
+.mobile-menu .email{
     font-size: var(--sm);
     font-weight: 300;
 }
 
-.mobile-menu-2 .sing-out{
+.mobile-menu .sing-out{
     font-size: var(--sm);
     color: var(--hospial-green);
 }
