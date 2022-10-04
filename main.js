@@ -110,7 +110,7 @@ function productRender(arr) {
         const productFigure = document.createElement('figure');
 
         const producImgCart = document.createElement('img');
-        producImgCart.setAttribute('src', '/assets/icons/bt_add_to_cart.svg');
+        producImgCart.setAttribute('src', './assets/icons/bt_add_to_cart.svg');
 
         cardsContainer.append(productCard);
         productCard.append(productImg, productInfo);
