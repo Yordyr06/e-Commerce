@@ -243,7 +243,8 @@ nav{
     position: absolute;
     right: 0;
     position: absolute;
-
+    /* border: 1px solid var(--very-light-pink);
+    border-radius: 8px; */
 }
 
 .my-order-container{
@@ -488,6 +489,7 @@ nav{
 
     .my-order{
         width: 100%;
+        border: none;
     }
 
     .cards-cointainer{
